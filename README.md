@@ -40,8 +40,8 @@ This history shows that the work was split into clear steps: setting up ignored 
 
 ### 2. How should Git change the way I edit scripts?
 
-I should make one focused change at a time, run the script to check it, and commit the working version with a clear message. Instead of overwriting a script and hoping I can undo everything later, I can compare versions and recover earlier work. I also need to push my commits so the version on GitHub matches the work on my laptop.
+I should make one change at a time, then run the script to check if it works. After that, I can commit it. Also, I should make sure to push my commits, keeping the versions on GitHub the same as on my laptop.
 
 ### 3. What else would I ignore?
 
-I would add `.venv/` for a local Python virtual environment, and I included it in this repository's `.gitignore`. It contains installed packages and files specific to the local environment, which can be recreated and should not clutter the course repository.
+Add a `.venv/` for my local Python. It’s included in the repository’s `.gitignore`. It has things that are specific to my laptop and should not clutter the class repository.
